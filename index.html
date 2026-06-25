@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avenly – Support</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #faf9f7;
+      color: #1a1a1a;
+      line-height: 1.65;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e8e4de;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #1a1a1a;
+    }
+
+    header .tagline {
+      font-size: 0.875rem;
+      color: #888;
+      margin-left: auto;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      color: #555;
+      font-size: 1.05rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 48px;
+    }
+
+    @media (max-width: 560px) {
+      .cards { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e8e4de;
+      border-radius: 14px;
+      padding: 24px;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .faq { margin-bottom: 48px; }
+
+    .faq h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+    }
+
+    .faq-item {
+      border-top: 1px solid #e8e4de;
+      padding: 20px 0;
+    }
+
+    .faq-item:last-child { border-bottom: 1px solid #e8e4de; }
+
+    .faq-item h4 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .faq-item p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .contact {
+      background: #fff;
+      border: 1px solid #e8e4de;
+      border-radius: 14px;
+      padding: 32px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .contact p { color: #555; font-size: 0.9rem; margin-bottom: 20px; }
+
+    .contact a {
+      display: inline-block;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      padding: 11px 28px;
+      border-radius: 980px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: opacity 0.15s;
+    }
+
+    .contact a:hover { opacity: 0.8; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.8rem;
+      color: #aaa;
+      border-top: 1px solid #e8e4de;
+    }
+
+    footer a { color: #aaa; text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Avenly</h1>
+  <span class="tagline">Simple trip planning.</span>
+</header>
+
+<main>
+  <div class="hero">
+    <h2>Support</h2>
+    <p>We're here to help you plan the perfect trip.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🗂 Organizing your trip</h3>
+      <p>Avenly stores all your activities, lodgings, and transport segments in one place. Tap the + button on any section to add items.</p>
+    </div>
+    <div class="card">
+      <h3>🤝 Collaborating</h3>
+      <p>Open the "Plan together" sheet from the More tab of any trip. Invite someone via iCloud and set their role to Can Edit or Can View.</p>
+    </div>
+    <div class="card">
+      <h3>☁️ iCloud sync</h3>
+      <p>Avenly uses iCloud to sync your trips across devices. Make sure you're signed in to iCloud in Settings and that iCloud Drive is enabled.</p>
+    </div>
+    <div class="card">
+      <h3>📄 Documents & files</h3>
+      <p>Attach PDFs, images, and other files to any trip from the Documents tab. Files are stored inside the trip package and sync automatically.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq-item">
+      <h4>Where are my trips stored?</h4>
+      <p>Trips are saved as <code>.tripplan</code> files in your device's Documents folder, inside the "Avenly Trips" subfolder. If you're signed in to iCloud, they're also backed up there.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>How do I share a trip with someone?</h4>
+      <p>Open the trip, go to the More tab, and tap "Plan together." Tap "Invite someone" and choose how to share the link — via Messages, Mail, or AirDrop. The recipient will need an iCloud account to accept.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Can collaborators see everything in the trip?</h4>
+      <p>Yes — collaborators with "Can View" access can see all trip content. Those with "Can Edit" access can also add, modify, and delete items. The owner can change roles at any time from the "Plan together" sheet.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>What happens if two people edit the same thing at the same time?</h4>
+      <p>Avenly uses a last-write-wins merge strategy. If a conflict is detected, the newer version is kept and your previous version is moved to Recently Deleted so nothing is lost.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>How do I remove a collaborator?</h4>
+      <p>Open the "Plan together" sheet, tap the collaborator's name, and select "Remove access." This immediately revokes their ability to view or edit the trip.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>I accidentally deleted an activity — can I recover it?</h4>
+      <p>Yes. Go to the More tab in your trip and open "Recently Deleted." Deleted activities are kept there for 30 days before being permanently removed.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Does Avenly work offline?</h4>
+      <p>Yes. All edits are saved locally first. Changes sync to iCloud automatically when you're back online.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>How do I delete my data?</h4>
+      <p>Delete individual trips from the home screen by opening the trip and tapping the trash icon. To remove all data, delete the app — this removes all local files. To remove iCloud data, go to Settings → [your name] → iCloud → Manage Storage → Avenly and delete the iCloud data there.</p>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2>Still need help?</h2>
+    <p>Send us an email and we'll get back to you as soon as we can.</p>
+    <a href="mailto:avenly.app@gmail.com">Contact Support</a>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Avenly &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
